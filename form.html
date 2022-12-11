@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>главная</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="clearfix">
+            
+            <a id="logo" href="glanaya.html"><span id="pink">САЙТ</span> <i>ВИЗИТКА</i></a>
+            <nav id="mainnav">
+            <ul>
+                <li><a href="uslugi.html">УСЛУГИ</a></li>
+                <li><a href="onas.html">О НАС</a></li>
+                <li><a href="klienti.html">КЛИЕНТЫ</a></li>
+                <li><a href="kontacti.html">КОНТАКТЫ</a></li>
+                <li><a href="form.html">НАПИСАТЬ НАМ</a></li>
+            </ul>
+            </nav>
+        </header>
+        <main>
+            <form id="contact-form" action="">
+                <div class="form_item">
+                    <label for="topic">Тема</label>
+                    <select name="topic" id="topic">
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Оставить отзыв/примечание</option>
+                        <option value="3">Сотрудничество</option>
+                        <option value="4">Другое</option>
+                    </select>
+                </div>
+                <div class="form_item">
+                    <label for="name">Имя<br></label>
+                    <input type="text" placeholder="Ввидете ваше имя" required>
+                </div>
+                <div class="form_item">
+                    <label for="LastName">E-mail<br></label>
+                    <input type="email" placeholder="Напиши" required>
+                </div>
+                <div class="form_item">
+                    <label for="textarea">Текст<br></label>
+                    <textarea name="textarea" id="area" cols="30" rows="10" placeholder="тут текст" required></textarea>
+                </div>
+                <div class="form_item">
+                    <label for="Хорошо"></label>
+                    <input type="submit">
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p id="footer_block">НАПИСАТЬ НАМ &#9650;</p>
+        <p id="footer_block">&copy; НОВАЯ КОМПАНИЯ</p>
+        <div id="footer_icons">
+            <img id="footer_img" src="img/instagram.png" alt="инстаграм">
+            <img id="footer_img" src="img/vk-social-logotype.png" alt="вк">
+            <img id="footer_img" src="img/facebook.png" alt="facebook">
+        </div>
+    </footer>
+
+</body>
+</html>
